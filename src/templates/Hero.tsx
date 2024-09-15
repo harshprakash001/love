@@ -9,6 +9,15 @@ import { Logo } from './Logo';
 
 const Hero = () => (
   <Background color="bg-gray-100">
+    {/* Full-width image with half-height */}
+    <div className="h-[50vh] w-full">
+      <img
+        src="/assets/images/land3.jpeg"
+        alt="Full-Width Half-Height Navbar Image"
+        className="size-full object-cover"
+      />
+    </div>
+
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
